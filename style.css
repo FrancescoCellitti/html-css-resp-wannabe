@@ -145,10 +145,14 @@ img {
         }
     }
 
-    .steps{
-        background-color:#eebbc3;;
+    .steps {
+        background-color: #eebbc3;
     }
 }
+
+
+
+
 /* soluzione sotto i 480px */
 @media screen and (max-width:480px) {
     .container {
@@ -172,12 +176,25 @@ img {
     }
 
     .steps {
-        margin:0;
-        
+        margin: 0;
+
     }
 
     .why-us {
         margin-bottom: 0px;
         background-color: #222222;
+    }
+}
+
+/*BONUS*/
+@media screen and (min-width: 769px) {
+    .container {
+        text-align: center;
+        max-width: 80%; 
+        margin: 0 auto;
+    }
+
+    .col {
+        width: 100%; 
     }
 }
